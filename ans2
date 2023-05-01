@@ -1,0 +1,3 @@
+s=input("enter string : ")
+unique_characters = set(s)
+print(uunique_characters)
