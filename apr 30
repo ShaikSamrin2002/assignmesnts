@@ -1,0 +1,30 @@
+print("Introduction to Python Programming : Rs 499.00")
+print("Python Libraries Cookbook : Rs.855.00")
+print("Data Science in Python : Rs. 645.00")
+book1=499.00
+book2=855.00
+book3=645.00
+delivery_date=250.00
+a,b,c=0,0,0
+while(True):
+        choice=int(input("choose any option : "))
+        if choice==1:
+               n=int(input("Enter no.of books do you want : "))
+               a=n*book1
+               print(" amount : ",a)        
+        elif choice==2:
+               n=int(input("Enter no.of books do you want : "))
+               b=n*book2
+               print(" amount: ",b)
+        elif choice==3:
+               n=int(input("Enter no.of books do you want : "))
+               c=n*book3
+               print(" amount : ",c)
+        else:
+               print("Please enter a valid option!")
+               break
+        
+sum=a+b+c
+amo=sum+sum*(12/100)+delivery_date
+print("Total Amount for books : ",amo)
+
